@@ -70,7 +70,7 @@ Learn more about LoadingDrawable on the [Wiki Home](https://github.com/dinuscxj/
   add dependencies in app module build.gradle :
 ```xml
  dependencies {
-	        implementation 'com.github.OOOOOldZhu:LoadingDrawable:v1.0'
+	        implementation 'com.github.OOOOOldZhu:LoadingDrawable:1.2'
 	}
   ```
  Define the `LoadingView` in XML and specify the `LoadingRenderer` style:
