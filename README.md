@@ -58,6 +58,21 @@ Learn more about LoadingDrawable on the [Wiki Home](https://github.com/dinuscxj/
  * LevelLoadingRenderer
 
 ## Usage
+ Add it in your root build.gradle at the end of repositories:
+```xml
+ allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  ```
+  add dependencies in app module build.gradle :
+```xml
+ dependencies {
+	        implementation 'com.github.OOOOOldZhu:LoadingDrawable:v1.0'
+	}
+  ```
  Define the `LoadingView` in XML and specify the `LoadingRenderer` style:
  ```xml
  <app.dinus.com.loadingdrawable.LoadingView
