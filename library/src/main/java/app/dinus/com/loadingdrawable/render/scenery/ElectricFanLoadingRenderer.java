@@ -142,9 +142,9 @@ public class ElectricFanLoadingRenderer extends LoadingRenderer {
         mElectricFanBgColor = DEFAULT_ELECTRIC_FAN_BGCOLOR;
         mElectricFanOutlineColor = DEFAULT_ELECTRIC_FAN_OUTLINE_COLOR;
 
-        mLeafDrawable = context.getResources().getDrawable(R.drawable.ic_leaf);
-        mLoadingDrawable = context.getResources().getDrawable(R.drawable.ic_loading);
-        mElectricFanDrawable = context.getResources().getDrawable(R.drawable.ic_eletric_fan);
+        mLeafDrawable = context.getResources().getDrawable(R.mipmap.ic_leaf);
+        mLoadingDrawable = context.getResources().getDrawable(R.mipmap.ic_loading);
+        mElectricFanDrawable = context.getResources().getDrawable(R.mipmap.ic_eletric_fan);
 
         mDuration = ANIMATION_DURATION;
         setInsets((int) mWidth, (int) mHeight);
