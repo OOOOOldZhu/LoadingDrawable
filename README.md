@@ -76,12 +76,12 @@ Learn more about LoadingDrawable on the [Wiki Home](https://github.com/dinuscxj/
  Define the `LoadingView` in XML and specify the `LoadingRenderer` style:
  ```xml
  <app.dinus.com.loadingdrawable.LoadingView
-    android:id="@+id/level_view"
-    android:layout_width="0dp"
-    android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:background="#fff1c02e"
-    app:loading_renderer="LevelLoadingRenderer"/>
+        android:id="@+id/electric_fan_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fffcd03c"
+        app:loading_renderer="ElectricFanLoadingRenderer" />
   ```
  Or specify the `LoadingRenderer` style in Java
  ```java
